@@ -1,6 +1,6 @@
 {
   "name": "@flasd/no-hats",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Prevent hats in package.json dependencies",
   "license": "MIT",
   "author": "Marcel Coelho <flasd2@gmail.com>",
