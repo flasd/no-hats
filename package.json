@@ -1,0 +1,29 @@
+{
+  "name": "@flasd/no-hats",
+  "version": "1.0.1",
+  "description": "Prevent hats in package.json dependencies",
+  "license": "MIT",
+  "author": "Marcel Coelho <flasd2@gmail.com>",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "no-hats": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "chalk": "5.2.0"
+  },
+  "devDependencies": {
+    "@flasd/pretty-package": "1.0.3",
+    "@types/node": "18.16.0",
+    "ts-node": "10.9.1",
+    "typescript": "5.0.4"
+  },
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  }
+}
