@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import chalk from "chalk";
 import { resolve } from "path";
 import { promises as fs } from "fs";
