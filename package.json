@@ -4,7 +4,7 @@
   "description": "Prevent hats in package.json dependencies",
   "license": "MIT",
   "author": "Marcel Coelho <flasd2@gmail.com>",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "bin": {
     "no-hats": "./dist/index.js"
@@ -14,7 +14,7 @@
     "prepublishOnly": "yarn build"
   },
   "dependencies": {
-    "chalk": "5.2.0"
+    "chalk": "4"
   },
   "devDependencies": {
     "@flasd/pretty-package": "1.0.3",
